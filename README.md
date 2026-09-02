@@ -101,8 +101,6 @@ Problems are grouped by topic and ordered Easy to Hard within each group.
 
 A structured set of problems covering the patterns most commonly tested in technical interviews, ordered from foundational to advanced. Each section is collapsible.
 
-> Use `Ctrl + F` to search by problem name or difficulty level.
-
 <details>
 <summary><b>Arrays and Hashing</b></summary>
 <br>

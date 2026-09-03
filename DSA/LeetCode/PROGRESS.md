@@ -20,9 +20,9 @@ These topics require no prior DSA knowledge. Get comfortable before moving on.
 |-------|--------|-------|
 | Arrays and Hashing | ✅ | Contains Duplicate, Valid Anagram, Missing Number, Top K Frequent Elements |
 | Math and String | ✅ | Palindrome Number, Roman to Integer, Longest Common Prefix |
-| Bit Manipulation | ✅ | Power of Two, Bitwise OR/AND problems — [refresher](../Concepts/bit-manipulation.md) |
+| Bit Manipulation | 🔁 | Needs redo — solved problems but concepts not solid |
 | Two Pointers | ⬜ | |
-| Sliding Window | ✅ | Fruits Into Baskets, Maximum Erasure Value — [refresher](../Concepts/sliding-window.md) |
+| Sliding Window | 🔁 | Needs redo — solved problems but concepts not solid |
 | Stack | ⬜ | |
 | Binary Search | ⬜ | |
 
@@ -72,7 +72,7 @@ Return here after Phase 4 is solid.
 
 | Topic | Status | Notes |
 |-------|--------|-------|
-| Advanced (Segment Tree / Sorted Container) | ✅ | Max Fruits Harvested, Fruits Into Baskets III |
+| Advanced (Segment Tree / Sorted Container) | 🔁 | Needs redo — solved problems but concepts not solid |
 | Math and Geometry | ⬜ | |
 
 ---

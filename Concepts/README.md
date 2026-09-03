@@ -6,8 +6,10 @@ Concept notes with problem-grounded examples. Each file covers one paradigm: wha
 
 | Concept | Core idea | When to use |
 |---|---|---|
+| [Bit Manipulation](./bit-manipulation.md) | Operate directly on binary bits using AND, OR, XOR, shifts | Powers of two, XOR tricks, subarray OR/AND problems, bitmask DP |
 | [Dynamic Programming](./dynamic-programming.md) | Break into overlapping subproblems; cache results | Optimization over choices with repeated substructure |
 | [Greedy](./greedy.md) | Always take the locally best option | Optimization where local best = global best |
+| [Sliding Window](./sliding-window.md) | Two pointers defining a window that expands right and shrinks left | Longest/shortest contiguous subarray satisfying a constraint |
 
 ## How to read these
 

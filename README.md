@@ -67,8 +67,10 @@ Concept notes live in [`Concepts/`](./Concepts/). Each file covers one paradigm:
 
 | Concept | Summary |
 |---------|---------|
+| [Bit Manipulation](./Concepts/bit-manipulation.md) | AND/OR/XOR/shift tricks; powers of two, XOR cancellation, subarray OR/AND |
 | [Dynamic Programming](./Concepts/dynamic-programming.md) | Break into overlapping subproblems; cache results; optimize via state machine |
 | [Greedy](./Concepts/greedy.md) | Take the locally best option at each step; works when local = global optimal |
+| [Sliding Window](./Concepts/sliding-window.md) | Two-pointer window; expand right, shrink left when constraint breaks |
 
 Progression tracking lives in [`LeetCode/PROGRESS.md`](./LeetCode/PROGRESS.md) — phased topic checklist with per-problem tick boxes.
 

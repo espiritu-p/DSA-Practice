@@ -20,9 +20,9 @@ These topics require no prior DSA knowledge. Get comfortable before moving on.
 |-------|--------|-------|
 | Arrays and Hashing | ✅ | Contains Duplicate, Valid Anagram, Missing Number, Top K Frequent Elements |
 | Math and String | ✅ | Palindrome Number, Roman to Integer, Longest Common Prefix |
-| Bit Manipulation | ✅ | Power of Two, Bitwise OR/AND problems |
+| Bit Manipulation | ✅ | Power of Two, Bitwise OR/AND problems — [refresher](../Concepts/bit-manipulation.md) |
 | Two Pointers | ⬜ | |
-| Sliding Window | ✅ | Fruits Into Baskets, Maximum Erasure Value |
+| Sliding Window | ✅ | Fruits Into Baskets, Maximum Erasure Value — [refresher](../Concepts/sliding-window.md) |
 | Stack | ⬜ | |
 | Binary Search | ⬜ | |
 

@@ -5,7 +5,7 @@
 Python DSA practice + AI engineering + system design — working toward interview-ready by **October 1, 2026**.
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-27%20Solved-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-30%20Solved-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
 [![Kattis](https://img.shields.io/badge/Kattis-144%20Solved-1F8ACB?style=flat-square)](https://open.kattis.com/)
 [![Last Commit](https://img.shields.io/github/last-commit/espiritu-p/Interview-Prep?style=flat-square&color=brightgreen)](https://github.com/espiritu-p/Interview-Prep/commits/master)
 
@@ -69,9 +69,9 @@ Interview-Prep/
 
 | Track | Phases to complete by Oct 1 | Status |
 |-------|-----------------------------|--------|
-| DSA | Phase 1–3 + DP 1D + Graphs intro | 🔁 In progress |
-| System Design | Phases 1–4 + 3 mock case studies | ⬜ Not started |
-| AI Engineering | Phases 1–4 (Internals → RAG → Agents → Evals) | ⬜ Not started |
+| DSA | Phase 1–3 + DP 1D + Graphs intro | 🟡 In progress |
+| System Design | Phases 1–4 + 3 mock case studies | 🟡 In progress |
+| AI Engineering | Phases 1–4 (Internals → RAG → Agents → Evals) | 🟡 In progress |
 
 Detailed battle plans:
 - DSA: [`DSA/COACHING.md`](./DSA/COACHING.md)

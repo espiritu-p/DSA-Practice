@@ -151,7 +151,7 @@ Case Study 6.6 is specifically designed for your AI engineering angle — ties b
 
 | Phase | Sessions | Status |
 |-------|----------|--------|
-| 1 — Foundations | 1.1 · 1.2 · 1.3 · 1.4 · 1.5 · 1.6 | ⬜ Not started |
+| 1 — Foundations | ✅ 1.1 · 🔜 1.2 · 1.3 · 1.4 · 1.5 · 1.6 | 🟡 In progress |
 | 2 — Storage & Databases | 2.1 · 2.2 · 2.3 · 2.4 · 2.5 · 2.6 · 2.7 | ⬜ Not started |
 | 3 — Scalability Patterns | 3.1 · 3.2 · 3.3 · 3.4 · 3.5 · 3.6 | ⬜ Not started |
 | 4 — Reliability & Ops | 4.1 · 4.2 · 4.3 · 4.4 · 4.5 · 4.6 | ⬜ Not started |

@@ -4,6 +4,16 @@ Persistent record across all three tracks. Updated after every session.
 **Goal: Interview-ready by October 1, 2026.**
 
 ---
+## Coaching Protocol
+
+**Standing rules — apply every session, every check:**
+
+1. **Best interview answer included always.** After critiquing any response, always close with the exact phrasing an interviewer wants to hear.
+2. **Plan checks are cross-track.** Whenever the user asks to check the plan or today's progress, always report status across all three tracks — DSA, System Design, and AI Engineering — not just the current one.
+3. **Session start.** Open every session by surfacing the day's plan across all three tracks.
+
+---
+
 
 ## Baseline (2026-09-03)
 
@@ -90,65 +100,65 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 
 **27 days. Target: DSA Phases 1–3 + DP 1D + Graphs · SD Phases 1–4 · AI Phases 1–3**
 
-### Week 1 — Sept 3–9
+### Week 1 — Sept 4–10
 **DSA focus:** Two Pointers + Stack + Binary Search  
 **SD focus:** Phase 1 — Foundations (scale, APIs, DNS, CDN, proxies, hashing)  
 **AI focus:** Phase 1 — LLM Internals (Transformer, attention, positional encoding)
 
 | Day | DSA | System Design | AI Engineering |
 |-----|-----|---------------|----------------|
-| Sept 3 | Valid Palindrome · Valid Parentheses · Binary Search | `SD: Phase 1.1` — Scale of numbers + estimation | `AI: Phase 1.1` — Transformer architecture |
-| Sept 4 | Move Zeroes · Min Stack | `SD: Phase 1.2` — APIs (REST vs gRPC vs GraphQL) | `AI: Phase 1.2` — Attention deep-dive |
-| Sept 5 | Two Sum II · Evaluate Reverse Polish Notation | `SD: Phase 1.3` — DNS + load balancing | `AI: Phase 1.3` — Positional encoding |
-| Sept 6 | 3Sum · Daily Temperatures | `SD: Phase 1.4` — CDN | `AI: Phase 1.4` — KV cache |
-| Sept 7 | Find Min in Rotated Sorted Array · Generate Parentheses | `SD: Phase 1.5` — Proxies + API gateways | `AI: Phase 1.5` — Scaling laws |
-| Sept 8 | Search in Rotated Sorted Array · Koko Eating Bananas | `SD: Phase 1.6` — Consistent hashing | `AI: Phase 1.6` — Tokenization |
-| Sept 9 | Container With Most Water — review/catch-up | **Weekend:** `SD: Case 6.1` mock — URL Shortener | Review AI Phase 1 — explain each concept from memory |
+| Sept 4 ✅ | Valid Palindrome · Valid Parentheses · Binary Search | `SD: Phase 1.1` — Scale of numbers + estimation | `AI: Phase 1.1` — Transformer architecture |
+| Sept 5 | Move Zeroes · Min Stack | `SD: Phase 1.2` — APIs (REST vs gRPC vs GraphQL) | `AI: Phase 1.2` — Attention deep-dive |
+| Sept 6 | Two Sum II · Evaluate Reverse Polish Notation | `SD: Phase 1.3` — DNS + load balancing | `AI: Phase 1.3` — Positional encoding |
+| Sept 7 | 3Sum · Daily Temperatures | `SD: Phase 1.4` — CDN | `AI: Phase 1.4` — KV cache |
+| Sept 8 | Find Min in Rotated Sorted Array · Generate Parentheses | `SD: Phase 1.5` — Proxies + API gateways | `AI: Phase 1.5` — Scaling laws |
+| Sept 9 | Search in Rotated Sorted Array · Koko Eating Bananas | `SD: Phase 1.6` — Consistent hashing | `AI: Phase 1.6` — Tokenization |
+| Sept 10 | Container With Most Water — review/catch-up | **Weekend:** `SD: Case 6.1` mock — URL Shortener | Review AI Phase 1 — explain each concept from memory |
 
-### Week 2 — Sept 10–16
+### Week 2 — Sept 11–17
 **DSA focus:** Sliding Window redo + Arrays & Hashing gaps + Linked List  
 **SD focus:** Phase 2 — Storage & Databases  
 **AI focus:** Phase 2 — Retrieval & RAG
 
 | Day | DSA | System Design | AI Engineering |
 |-----|-----|---------------|----------------|
-| Sept 10 | Best Time to Buy and Sell Stock · Longest Substring Without Repeating Characters | `SD: Phase 2.1` — Relational DBs + indexes | `AI: Phase 2.1` — RAG fundamentals |
-| Sept 11 | Longest Repeating Character Replacement · Permutation in String | `SD: Phase 2.2` — NoSQL types | `AI: Phase 2.2` — Chunking strategies |
-| Sept 12 | Two Sum · Group Anagrams | `SD: Phase 2.3` — CAP theorem | `AI: Phase 2.3` — Embedding models |
-| Sept 13 | Product of Array Except Self · Longest Consecutive Sequence | `SD: Phase 2.4` — Replication | `AI: Phase 2.4` — Vector search (HNSW, IVF) |
-| Sept 14 | Reverse Linked List · Merge Two Sorted Lists | `SD: Phase 2.5` — Sharding | `AI: Phase 2.5` — Reranking |
-| Sept 15 | Linked List Cycle · Reorder List | `SD: Phase 2.6` — Caching | `AI: Phase 2.6` — Hybrid search |
-| Sept 16 | Remove Nth Node From End of List — review/catch-up | **Weekend:** `SD: Case 6.2` mock — Rate Limiter | Review AI Phase 2 — walk through a RAG pipeline from memory |
+| Sept 11 | Best Time to Buy and Sell Stock · Longest Substring Without Repeating Characters | `SD: Phase 2.1` — Relational DBs + indexes | `AI: Phase 2.1` — RAG fundamentals |
+| Sept 12 | Longest Repeating Character Replacement · Permutation in String | `SD: Phase 2.2` — NoSQL types | `AI: Phase 2.2` — Chunking strategies |
+| Sept 13 | Two Sum · Group Anagrams | `SD: Phase 2.3` — CAP theorem | `AI: Phase 2.3` — Embedding models |
+| Sept 14 | Product of Array Except Self · Longest Consecutive Sequence | `SD: Phase 2.4` — Replication | `AI: Phase 2.4` — Vector search (HNSW, IVF) |
+| Sept 15 | Reverse Linked List · Merge Two Sorted Lists | `SD: Phase 2.5` — Sharding | `AI: Phase 2.5` — Reranking |
+| Sept 16 | Linked List Cycle · Reorder List | `SD: Phase 2.6` — Caching | `AI: Phase 2.6` — Hybrid search |
+| Sept 17 | Remove Nth Node From End of List — review/catch-up | **Weekend:** `SD: Case 6.2` mock — Rate Limiter | Review AI Phase 2 — walk through a RAG pipeline from memory |
 
-### Week 3 — Sept 17–23
+### Week 3 — Sept 18–24
 **DSA focus:** Trees (BFS/DFS) + Heap  
 **SD focus:** Phase 3 — Scalability Patterns  
 **AI focus:** Phase 3 — Agents & Tool Use
 
 | Day | DSA | System Design | AI Engineering |
 |-----|-----|---------------|----------------|
-| Sept 17 | Invert Binary Tree · Maximum Depth of Binary Tree | `SD: Phase 3.1` — Message queues | `AI: Phase 3.1` — ReAct pattern |
-| Sept 18 | Same Tree · Diameter of Binary Tree | `SD: Phase 3.2` — Kafka internals | `AI: Phase 3.2` — Tool use + function calling |
-| Sept 19 | Binary Tree Level Order Traversal · Binary Tree Right Side View | `SD: Phase 3.3` — Rate limiting | `AI: Phase 3.3` — Memory types |
-| Sept 20 | Validate Binary Search Tree · Kth Smallest Element in a BST | `SD: Phase 3.4` — Idempotency | `AI: Phase 3.4` — Multi-agent coordination |
-| Sept 21 | Lowest Common Ancestor of a BST · Count Good Nodes | `SD: Phase 3.5` — Distributed transactions | `AI: Phase 3.5` — LangGraph internals |
-| Sept 22 | Kth Largest Element in a Stream · K Closest Points to Origin | `SD: Phase 3.6` — Service discovery | `AI: Phase 3.6` — MCP architecture |
-| Sept 23 | Kth Largest Element in an Array — review/catch-up | **Weekend:** `SD: Case 6.3` mock — Notification Service | **Weekend:** AI Phase 3 coding exercise — ReAct agent from scratch |
+| Sept 18 | Invert Binary Tree · Maximum Depth of Binary Tree | `SD: Phase 3.1` — Message queues | `AI: Phase 3.1` — ReAct pattern |
+| Sept 19 | Same Tree · Diameter of Binary Tree | `SD: Phase 3.2` — Kafka internals | `AI: Phase 3.2` — Tool use + function calling |
+| Sept 20 | Binary Tree Level Order Traversal · Binary Tree Right Side View | `SD: Phase 3.3` — Rate limiting | `AI: Phase 3.3` — Memory types |
+| Sept 21 | Validate Binary Search Tree · Kth Smallest Element in a BST | `SD: Phase 3.4` — Idempotency | `AI: Phase 3.4` — Multi-agent coordination |
+| Sept 22 | Lowest Common Ancestor of a BST · Count Good Nodes | `SD: Phase 3.5` — Distributed transactions | `AI: Phase 3.5` — LangGraph internals |
+| Sept 23 | Kth Largest Element in a Stream · K Closest Points to Origin | `SD: Phase 3.6` — Service discovery | `AI: Phase 3.6` — MCP architecture |
+| Sept 24 | Kth Largest Element in an Array — review/catch-up | **Weekend:** `SD: Case 6.3` mock — Notification Service | **Weekend:** AI Phase 3 coding exercise — ReAct agent from scratch |
 
-### Week 4 — Sept 24–30
+### Week 4 — Sept 25–Oct 1
 **DSA focus:** DP 1D + Bit Manipulation redo + Graphs intro + Greedy gaps  
 **SD focus:** Phase 4 — Reliability & Ops (your strongest — lean into SRE experience)  
 **AI focus:** Phase 4 — Evaluation & Evals
 
 | Day | DSA | System Design | AI Engineering |
 |-----|-----|---------------|----------------|
-| Sept 24 | Climbing Stairs · House Robber | `SD: Phase 4.1` — SLOs + error budgets | `AI: Phase 4.1` — Why evals are hard |
-| Sept 25 | House Robber II · Coin Change | `SD: Phase 4.2` — Circuit breakers + bulkheads | `AI: Phase 4.2` — Automated metrics (BLEU, BERTScore, G-Eval) |
-| Sept 26 | Longest Increasing Subsequence · Maximum Product Subarray | `SD: Phase 4.3` — Retries + timeouts | `AI: Phase 4.3` — Eval dataset design |
-| Sept 27 | Power of Two · Number of 1 Bits · Single Number | `SD: Phase 4.4` — Observability (metrics/logs/traces) | `AI: Phase 4.4` — LLM-as-judge |
-| Sept 28 | Number of Islands · Clone Graph | `SD: Phase 4.5` — Deployment strategies | `AI: Phase 4.5` — RAG-specific evals (RAGAS) |
-| Sept 29 | Max Area of Island · Rotting Oranges | `SD: Phase 4.6` — Disaster recovery (RTO/RPO) | `AI: Phase 4.6` — Agent evals |
-| Sept 30 | Maximum Subarray · Jump Game — final review | **Weekend:** `SD: Case 6.6` mock — AI Inference Service (bridges both tracks) | **Weekend:** AI Phase 4 coding exercise — LLM-as-judge eval harness |
+| Sept 25 | Climbing Stairs · House Robber | `SD: Phase 4.1` — SLOs + error budgets | `AI: Phase 4.1` — Why evals are hard |
+| Sept 26 | House Robber II · Coin Change | `SD: Phase 4.2` — Circuit breakers + bulkheads | `AI: Phase 4.2` — Automated metrics (BLEU, BERTScore, G-Eval) |
+| Sept 27 | Longest Increasing Subsequence · Maximum Product Subarray | `SD: Phase 4.3` — Retries + timeouts | `AI: Phase 4.3` — Eval dataset design |
+| Sept 28 | Power of Two · Number of 1 Bits · Single Number | `SD: Phase 4.4` — Observability (metrics/logs/traces) | `AI: Phase 4.4` — LLM-as-judge |
+| Sept 29 | Number of Islands · Clone Graph | `SD: Phase 4.5` — Deployment strategies | `AI: Phase 4.5` — RAG-specific evals (RAGAS) |
+| Sept 30 | Max Area of Island · Rotting Oranges | `SD: Phase 4.6` — Disaster recovery (RTO/RPO) | `AI: Phase 4.6` — Agent evals |
+| Oct 1 | Maximum Subarray · Jump Game — final review | **Final mock:** `SD: Case 6.6` — AI Inference Service (bridges both tracks) | **Final:** AI Phase 4 coding exercise — LLM-as-judge eval harness |
 
 ---
 

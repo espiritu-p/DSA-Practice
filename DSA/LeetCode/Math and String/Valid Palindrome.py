@@ -1,16 +1,17 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        # Keep only alphanumeric chars, normalized to lowercase
-        clean_s = "".join(char for char in s if char.isalnum()).lower()
-        startIdx = 0
-        endIdx = len(clean_s) - 1
+        left, right = 0, len(s) - 1
 
-        # Two pointers closing in from both ends
-        while (startIdx < endIdx):
-            if clean_s[startIdx] != clean_s[endIdx]:
+        while left < right:
+            # Skip non-alphanumeric chars on both sides
+            while left < right and not s[left].isalnum():
+                left += 1
+            while left < right and not s[right].isalnum():
+                right -= 1
+
+            if s[left].lower() != s[right].lower():
                 return False
-            else:
-                startIdx+=1
-                endIdx-=1
+            left += 1
+            right -= 1
 
         return True

@@ -159,6 +159,7 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 3. **Space/time tradeoffs** — did they name the variant they *didn't* write? (e.g. O(n) copy vs O(1) in-place)
 4. **Talk-aloud check** — restate + edge cases → plan → complexity → variant, unprompted
 5. **Log it** — what was good, what costs points, one drill for next time
+6. **Workflow** — user pastes solution → review vs rubric → user revises → only then commit/push
 
 ## Coaching Sessions
 

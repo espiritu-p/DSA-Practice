@@ -29,7 +29,18 @@ Persistent record for cross-session coaching. Updated after every completed sess
 
 ## Sessions
 
-*No sessions logged yet. Start with `AI: Phase 1.1`*
+### Session 1 — 2026-09-04 — Phase 1.1: Transformer architecture ⏳ Reading assigned
+
+**Reading:** Jay Alammar — *The Illustrated Transformer* (jalammar.github.io/illustrated-transformer/). First pass, skip fine math.
+
+**Quiz prep (explain in one sentence each, quizzed next session):**
+1. Encoder vs decoder stack (GPT-style = decoder-only)
+2. Why residual connections exist (gradient flow in deep stacks)
+3. What layer norm does (stabilize per-token activations)
+4. What the FFN adds after attention (per-token nonlinearity; most parameters)
+5. Where attention fits (mixes info across tokens; FFN is per-token)
+
+Note: attention deep-dive (Q/K/V) is deferred to Phase 1.2 — don't rabbit-hole.
 
 ---
 

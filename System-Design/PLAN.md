@@ -50,7 +50,7 @@ The primitives. Every single design question touches these.
 
 | Session | Topic | Key Concepts |
 |---------|-------|-------------|
-| 1.1 | Scale of numbers | Latency numbers every engineer should know; QPS estimation; storage units |
+| ~~1.1~~ ✅ | Scale of numbers | Latency numbers every engineer should know; QPS estimation; storage units |
 | 1.2 | Client-server & APIs | REST vs. GraphQL vs. gRPC; HTTP/2; long-polling vs. SSE vs. WebSocket |
 | 1.3 | DNS & load balancing | DNS resolution, L4 vs. L7 load balancers, health checks, sticky sessions |
 | 1.4 | CDN | Edge caching, push vs. pull CDN, cache invalidation, origin shield |

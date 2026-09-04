@@ -47,6 +47,12 @@ Persistent record. Updated after every completed session.
 
 **Drill assigned:** redo Q1 math + recite latency ladder from memory.
 
+**Drill result:** QPS math ✅ (10M DAU × 10 actions ≈ 1K QPS via shortcut). Latency ladder ✅ with one label slip (said "RAM" for rung 2 — RAM *is* main memory; rung 2 is SSD). Payoff line learned: "disk is 1000× slower than memory, so we cache; cross-continent is 1000× slower than disk, so we use CDNs."
+
+**Follow-up Q&A:** caching (copy in fast memory, e.g. Redis — deep dive in SD 2.6) and CDN (copies on servers near the user, e.g. Cloudflare — deep dive in SD 1.4). Both framed as the same idea at different distances.
+
+**Status: Phase 1.1 ✅ complete**
+
 ---
 
 ## How to Update This File

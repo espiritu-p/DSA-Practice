@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-27 problems solved, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
+28 problems solved, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
 
 ---
 
@@ -12,7 +12,7 @@
 | [Bit Manipulation](./Bit%20Manipulation/) | 5 | XOR, bit masking, bitwise tricks |
 | [Greedy](./Greedy/) | 3 | Local-best choices; see [Concepts/greedy.md](../Concepts/greedy.md) |
 | [Hashing](./Hashing/) | 4 | Frequency maps, existence checks |
-| [Math and String](./Math%20and%20String/) | 3 | Arithmetic, string parsing |
+| [Math and String](./Math%20and%20String/) | 4 | Arithmetic, string parsing |
 | [Sliding Window](./Sliding%20Window/) | 2 | Variable/fixed window over array |
 | [Tree and Graph](./Tree%20and%20Graph/) | 1 | DFS on trees |
 | [Advanced](./Advanced/) | 2 | Segment tree, sorted containers |
@@ -62,6 +62,7 @@
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy |
 
 ## Sliding Window
 

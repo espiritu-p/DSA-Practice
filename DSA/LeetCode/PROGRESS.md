@@ -19,7 +19,7 @@ These topics require no prior DSA knowledge. Get comfortable before moving on.
 | Topic | Status | Notes |
 |-------|--------|-------|
 | Arrays and Hashing | ✅ | Contains Duplicate, Valid Anagram, Missing Number, Top K Frequent Elements |
-| Math and String | ✅ | Palindrome Number, Roman to Integer, Longest Common Prefix |
+| Math and String | ✅ | Palindrome Number, Roman to Integer, Longest Common Prefix, Valid Palindrome |
 | Bit Manipulation | 🔁 | Needs redo — solved problems but concepts not solid |
 | Two Pointers | ⬜ | |
 | Sliding Window | 🔁 | Needs redo — solved problems but concepts not solid |
@@ -99,7 +99,7 @@ Problems from the planned list. Tick them off as you solve them.
 
 ### Two Pointers
 
-- [ ] Valid Palindrome
+- [x] Valid Palindrome
 - [ ] Move Zeroes
 - [ ] Two Sum II - Input Array Is Sorted
 - [ ] 3Sum

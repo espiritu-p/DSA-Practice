@@ -171,7 +171,7 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 |---|---|---|---|---|
 | 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Two Pointers | Easy | ✅ Done (Sept 4) |
 | 2 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack | Easy | ✅ Done (Sept 4) |
-| 3 | [Binary Search](https://leetcode.com/problems/binary-search/) | Binary Search | Easy | ⏳ In progress |
+| 3 | [Binary Search](https://leetcode.com/problems/binary-search/) | Binary Search | Easy | ✅ Done (Sept 4) |
 
 **Completed:**
 
@@ -184,6 +184,12 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 - Correct on all edge cases (empty-stack closer, leftover openers, mismatch)
 - Coach notes: leftover debug `print` committed (biggest red flag); `for i in range(len(s))` → `for char in s`; triple-`or` mismatch chain → `pairs` dict lookup; tail `if/return` → `return not stack`
 - Drill: before submitting, scan for `print` and `range(len(` — both are tells
+
+**Binary Search (Sept 4)** — committed as `solved(LeetCode): #704`
+- Textbook-correct: `<=` condition, ±1 bound updates, `-1` fallback; all edge cases fine
+- Coach notes: parens on `while` again (2nd occurrence — C/Java habit, actively unlearn); comment typo
+- Interview line to memorize: `(high + low) // 2` overflows in Java/C++ (`low + (high - low) // 2`), Python ints are unbounded so it's fine — say it unprompted
+- Session 1 complete: 3/3 in one day
 
 ---
 

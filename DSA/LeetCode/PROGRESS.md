@@ -134,7 +134,7 @@ Problems from the planned list. Tick them off as you solve them.
 
 ### Binary Search
 
-- [ ] Binary Search
+- [x] Binary Search
 - [ ] Find Peak Element
 - [ ] Search a 2D Matrix
 - [ ] Koko Eating Bananas

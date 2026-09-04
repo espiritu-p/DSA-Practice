@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-29 problems solved, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
+30 problems solved, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
 
 ---
 
@@ -9,6 +9,7 @@
 | Topic | Problems | Notes |
 |-------|----------|-------|
 | [Arrays](./Arrays/) | 4 | Greedy + simulation on sequences |
+| [Binary Search](./Binary%20Search/) | 1 | Halving the search space |
 | [Bit Manipulation](./Bit%20Manipulation/) | 5 | XOR, bit masking, bitwise tricks |
 | [Greedy](./Greedy/) | 3 | Local-best choices; see [Concepts/greedy.md](../Concepts/greedy.md) |
 | [Hashing](./Hashing/) | 4 | Frequency maps, existence checks |
@@ -28,6 +29,12 @@
 | 2210 | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | Easy |
 | 3477 | [Fruits Into Baskets II](https://leetcode.com/problems/fruit-into-baskets-ii/) | Easy |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium |
+
+## Binary Search
+
+| # | Problem | Difficulty |
+|---|---------|-----------|
+| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy |
 
 ## Bit Manipulation
 

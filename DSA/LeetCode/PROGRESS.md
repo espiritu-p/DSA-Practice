@@ -122,7 +122,7 @@ Problems from the planned list. Tick them off as you solve them.
 
 ### Stack
 
-- [ ] Valid Parentheses
+- [x] Valid Parentheses
 - [ ] Decode String
 - [ ] Asteroid Collision
 - [ ] Min Stack

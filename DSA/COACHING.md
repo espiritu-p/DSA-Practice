@@ -160,13 +160,16 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 
 | # | Problem | Topic | Difficulty | Status |
 |---|---|---|---|---|
-| 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Two Pointers | Easy | ⏳ In progress |
+| 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Two Pointers | Easy | ✅ Done (Sept 4) |
 | 2 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack | Easy | ⏳ In progress |
 | 3 | [Binary Search](https://leetcode.com/problems/binary-search/) | Binary Search | Easy | ⏳ In progress |
 
 **Completed:**
 
-> (none yet)
+**Valid Palindrome (Sept 4)** — committed as `solved(LeetCode): #125`
+- Correct two-pointer pattern, correct `<` loop condition, early return
+- Coach notes: camelCase vars (`startIdx`) → use `left`/`right`; redundant `else` after `return`; built O(n)-space `clean_s` without naming the O(1)-space variant — in interviews, acknowledge the tradeoff in one sentence
+- Drill: restate edge cases → plan → complexity → variant, out loud, every problem
 
 ---
 

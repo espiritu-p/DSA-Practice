@@ -3,16 +3,7 @@
 Persistent record across all three tracks. Updated after every session.  
 **Goal: Interview-ready by October 1, 2026.**
 
----
-## Coaching Protocol
-
-**Standing rules — apply every session, every check:**
-
-1. **Best interview answer included always.** After critiquing any response, always close with the exact phrasing an interviewer wants to hear.
-2. **Plan checks are cross-track.** Whenever the user asks to check the plan or today's progress, always report status across all three tracks — DSA, System Design, and AI Engineering — not just the current one.
-3. **Session start.** Open every session by surfacing the day's plan across all three tracks.
-4. **README checks on every push.** Before every end-of-session commit, verify all READMEs are current: root `README.md`, `DSA/LeetCode/README.md`, `System-Design/Concepts/README.md`, `System-Design/Case-Studies/README.md`, `AI-Engineering/Concepts/README.md`, `AI-Engineering/Exercises/README.md`.
-5. **Machine-switch aware.** User may continue sessions from a different computer with a fresh clone of this repo. Always read the coaching logs at session start to restore full context — never assume prior in-memory state carries over.
+> Coaching protocol and session rules live in [`CLAUDE.md`](../CLAUDE.md) at the repo root.
 
 ---
 
@@ -164,15 +155,11 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 
 ---
 
-## DSA Review Rubric (apply to every submitted solution)
+## DSA Review Rubric
 
-1. **Correctness first** — loop bounds, off-by-one, edge cases (empty, single element, all-invalid input)
-2. **Python idiom** — snake_case vars, no redundant `else` after `return`, no parens on `while`/`if`
-3. **Space/time tradeoffs** — did they name the variant they *didn't* write? (e.g. O(n) copy vs O(1) in-place)
-4. **Talk-aloud check** — restate + edge cases → plan → complexity → variant, unprompted
-5. **Log it** — what was good, what costs points, one drill for next time
-6. **Workflow** — user pastes solution → review vs rubric → user revises → only then commit/push
-7. **Session start** — open every session by surfacing the day's plan across all three tracks (missed Sept 4, user had to ask)
+> Rubric lives in [`CLAUDE.md`](../CLAUDE.md) — DSA review rubric section.
+
+---
 
 ## Coaching Sessions
 

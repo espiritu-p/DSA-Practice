@@ -55,11 +55,4 @@ Persistent record. Updated after every completed session.
 
 ---
 
-## How to Update This File
-
-After each session, tell me:
-- Phase/session covered
-- What you answered confidently vs. struggled with
-- Any mock design feedback
-
-I'll log the debrief and update PLAN.md progress tracker.
+> Coaching protocol and session rules live in [`CLAUDE.md`](../CLAUDE.md) at the repo root.

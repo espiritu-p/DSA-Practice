@@ -2,15 +2,7 @@
 
 Persistent record for cross-session coaching. Updated after every completed session.
 
----
-## Coaching Protocol
-
-**Standing rules — apply every session, every phase:**
-
-1. **Best interview answer included always.** After critiquing your response, I always close with the exact phrasing an interviewer would want to hear. Use it as the benchmark to calibrate your own answer against.
-2. **Critique structure:** What landed → What was wrong/missing → Best interview answer.
-3. **Clarifying questions welcome mid-session.** If a concept is unclear, ask before moving on — logged as a teachable moment, not a gap.
-4. **Re-answer to lock in.** After critique, you can re-answer in your own words to confirm the concept is internalized. Encouraged but not required.
+> Coaching protocol and session rules live in [`CLAUDE.md`](../CLAUDE.md) at the repo root.
 
 ---
 

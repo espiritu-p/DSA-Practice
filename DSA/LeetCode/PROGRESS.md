@@ -60,7 +60,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 
 | Topic | Grade | Evidence | Gap |
 |-------|-------|----------|-----|
-| Greedy | 🟡 Developing | 3 problems (Max Unique Subarray Easy, Max Score Removing Substrings Medium, Rearranging Fruits Hard) — includes 1 hard solved independently | NeetCode LC greedy set not yet attempted; harder interval-greedy variants (Non-overlapping Intervals, Min Arrows) untested |
+| Greedy | 🟡 Developing | 2 problems independently (Max Unique Subarray Easy, Max Score Removing Substrings Medium); Rearranging Fruits (Hard) — solution checked, not independently solved | NeetCode LC greedy set not yet attempted; harder interval-greedy variants untested |
 | Dynamic Programming — 1D | ⬜ Not Started | — | — |
 | Dynamic Programming — 2D | ⬜ Not Started | — | — |
 | Intervals | ⬜ Not Started | — | — |
@@ -71,14 +71,14 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 
 | Topic | Grade | Evidence | Gap |
 |-------|-------|----------|-----|
-| Advanced (Segment Tree / Sorted Container) | 🟠 Familiar | 2 problems solved but data structure internals not understood | Cannot implement from scratch; relies on library (`SortedList`); not interview-reliable |
+| Advanced (Segment Tree / Sorted Container) | 🔴 Exposed | 2 Hard problems attempted (Maximum Fruits Harvested, Fruits Into Baskets III) — both solution-checked, not independently solved; data structure internals not understood | Cannot solve any problem in this category independently; needs foundational study before attempting |
 | Math and Geometry | ⬜ Not Started | — | — |
 
 ---
 
 ## Problem Checklist
 
-Tick problems off as you solve them independently (no hints, within ~25 min).
+**Key:** `[x]` = solved independently (no hints, ≤25 min) · `[~]` = solution checked / needed hints · `[ ]` = not attempted
 
 ### Arrays and Hashing
 
@@ -234,13 +234,18 @@ Tick problems off as you solve them independently (no hints, within ~25 min).
 - [ ] Network Delay Time
 - [ ] Cheapest Flights Within K Stops
 - [ ] Reconstruct Itinerary
-- [ ] Swim in Rising Water
+
+### Advanced (Segment Tree / Sorted Container)
+
+- [~] Maximum Fruits Harvested After at Most K Steps
+- [~] Fruits Into Baskets III
+
 
 ### Greedy
 
 - [x] Maximum Unique Subarray Sum After Deletion
 - [x] Maximum Score From Removing Substrings
-- [x] Rearranging Fruits
+- [~] Rearranging Fruits
 - [ ] Maximum Subarray
 - [ ] Jump Game
 - [ ] Jump Game II

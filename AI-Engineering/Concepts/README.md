@@ -4,7 +4,7 @@ One file per topic. Each covers: the mental model, when it matters, key terminol
 
 | Concept | Phase | Status |
 |---------|-------|--------|
-| transformer-architecture.md | 1.1 | ⬜ |
+| transformer-architecture.md | 1.1 | ✅ |
 | attention.md | 1.2 | ⬜ |
 | positional-encoding.md | 1.3 | ⬜ |
 | kv-cache.md | 1.4 | ⬜ |

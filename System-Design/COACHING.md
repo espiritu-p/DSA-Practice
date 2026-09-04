@@ -27,7 +27,25 @@ Persistent record. Updated after every completed session.
 
 ## Sessions
 
-*No sessions logged yet. Start with `SD: Phase 1.1`*
+### Session 1 — 2026-09-04 — Phase 1.1: Scale of numbers + estimation
+
+**Format:** 3-question quiz (QPS estimation, latency orders of magnitude, storage estimation)
+
+**What landed:**
+- Latency ordering correct without prompting (memory < SSD < cross-continent)
+- Storage estimation method correct (units × rate × time)
+
+**Gaps found (all vocabulary/arithmetic, not reasoning):**
+- Didn't know **DAU** (daily active users), **QPS** (queries/sec), **peak multiplier** (~2–3× average) — the three starting terms of every SD interview
+- Latency numbers not yet memorized: memory ~100**ns** → SSD ~100**µs** → cross-continent ~100**ms** (each hop ~1000×; Jeff Dean's table)
+- Storage math dropped ~100×: 200M tweets × 280B = 56 GB/day ≈ 20 TB/year (not 480MB)
+- "What did you ignore" answer to internalize: **metadata, indexes (2–5×), replication (×3 for durability), media (dominates → PB-scale, not TB)**
+
+**Key formulas to memorize:**
+- `QPS = (DAU × actions/user) ÷ 86,400` (~100K sec/day)
+- Storage ladder: KB → MB → GB → TB → PB (×1000 each)
+
+**Drill assigned:** redo Q1 math + recite latency ladder from memory.
 
 ---
 

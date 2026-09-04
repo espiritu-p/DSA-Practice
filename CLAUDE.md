@@ -42,17 +42,32 @@ in-memory state carries over — the coaching logs are the source of truth.
 
 ## End-of-Session Checklist
 
-Before every commit and push, verify these files are current:
+Before every commit and push, verify **every `.md` file in the repo** is current.
+Full file list — check each one:
 
 | File | What to check |
 |------|---------------|
-| `README.md` | LeetCode solved count, track statuses |
-| `DSA/LeetCode/README.md` | Problem list and topic counts |
+| `README.md` | LeetCode solved count, all track statuses |
+| `CLAUDE.md` | Rules up to date; no stale protocol in coaching files |
+| `DSA/COACHING.md` | Session log current; battle plan dates correct |
+| `DSA/LeetCode/README.md` | Problem list, topic counts |
+| `DSA/LeetCode/PROGRESS.md` | Topic status table + problem checklist ticks |
+| `DSA/Concepts/README.md` | Index matches files present |
+| `DSA/Concepts/sliding-window.md` | Content only; no status to update |
+| `DSA/Concepts/bit-manipulation.md` | Content only; no status to update |
+| `DSA/Concepts/greedy.md` | Content only; no status to update |
+| `DSA/Concepts/dynamic-programming.md` | Content only; no status to update |
+| `DSA/Kattis/README.md` | Problem count and list |
+| `System-Design/PLAN.md` | Progress tracker session statuses |
+| `System-Design/COACHING.md` | Session log current |
 | `System-Design/Concepts/README.md` | Session status per concept file |
 | `System-Design/Case-Studies/README.md` | Mock session statuses |
+| `AI-Engineering/PLAN.md` | Progress tracker session statuses |
+| `AI-Engineering/COACHING.md` | Session log current |
 | `AI-Engineering/Concepts/README.md` | Session status per concept file |
 | `AI-Engineering/Exercises/README.md` | Coding exercise statuses |
 
+New `.md` files added during a session → add them to this list immediately.
 Then commit with Conventional Commits format and push to master.
 
 ---

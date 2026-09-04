@@ -21,10 +21,10 @@ These topics require no prior DSA knowledge. Get comfortable before moving on.
 | Arrays and Hashing | ✅ | Contains Duplicate, Valid Anagram, Missing Number, Top K Frequent Elements |
 | Math and String | ✅ | Palindrome Number, Roman to Integer, Longest Common Prefix, Valid Palindrome |
 | Bit Manipulation | 🔁 | Needs redo — solved problems but concepts not solid |
-| Two Pointers | ⬜ | |
+| Two Pointers | ✅ | Valid Palindrome ✅ |
 | Sliding Window | 🔁 | Needs redo — solved problems but concepts not solid |
-| Stack | ⬜ | |
-| Binary Search | ⬜ | |
+| Stack | ✅ | Valid Parentheses ✅ |
+| Binary Search | ✅ | Binary Search ✅ |
 
 ---
 

@@ -152,6 +152,14 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 
 ---
 
+## DSA Review Rubric (apply to every submitted solution)
+
+1. **Correctness first** — loop bounds, off-by-one, edge cases (empty, single element, all-invalid input)
+2. **Python idiom** — snake_case vars, no redundant `else` after `return`, no parens on `while`/`if`
+3. **Space/time tradeoffs** — did they name the variant they *didn't* write? (e.g. O(n) copy vs O(1) in-place)
+4. **Talk-aloud check** — restate + edge cases → plan → complexity → variant, unprompted
+5. **Log it** — what was good, what costs points, one drill for next time
+
 ## Coaching Sessions
 
 ### Session 1 — 2026-09-03

@@ -11,6 +11,8 @@ Persistent record across all three tracks. Updated after every session.
 1. **Best interview answer included always.** After critiquing any response, always close with the exact phrasing an interviewer wants to hear.
 2. **Plan checks are cross-track.** Whenever the user asks to check the plan or today's progress, always report status across all three tracks — DSA, System Design, and AI Engineering — not just the current one.
 3. **Session start.** Open every session by surfacing the day's plan across all three tracks.
+4. **README checks on every push.** Before every end-of-session commit, verify all READMEs are current: root `README.md`, `DSA/LeetCode/README.md`, `System-Design/Concepts/README.md`, `System-Design/Case-Studies/README.md`, `AI-Engineering/Concepts/README.md`, `AI-Engineering/Exercises/README.md`.
+5. **Machine-switch aware.** User may continue sessions from a different computer with a fresh clone of this repo. Always read the coaching logs at session start to restore full context — never assume prior in-memory state carries over.
 
 ---
 

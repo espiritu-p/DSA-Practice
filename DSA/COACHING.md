@@ -160,6 +160,7 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 4. **Talk-aloud check** — restate + edge cases → plan → complexity → variant, unprompted
 5. **Log it** — what was good, what costs points, one drill for next time
 6. **Workflow** — user pastes solution → review vs rubric → user revises → only then commit/push
+7. **Session start** — open every session by surfacing the day's plan across all three tracks (missed Sept 4, user had to ask)
 
 ## Coaching Sessions
 

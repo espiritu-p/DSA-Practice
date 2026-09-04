@@ -38,6 +38,21 @@ in-memory state carries over — the coaching logs are the source of truth.
 4. **Talk-aloud check** — restate + edge cases → plan → complexity → variant, unprompted
 5. **Workflow** — user pastes solution → review vs rubric → user revises → only then commit/push
 
+### DSA mastery grading scheme
+Applied when updating `DSA/LeetCode/PROGRESS.md` topic grades after each session.
+
+| Grade | Label | Criteria |
+|-------|-------|----------|
+| ⬜ | Not Started | Haven't begun |
+| 🔴 | Exposed | Read or attempted; cannot solve independently |
+| 🟠 | Familiar | 1–2 easy solved independently; hints needed on medium; miss edge cases |
+| 🟡 | Developing | Easy independent, medium with occasional hints; core template known; explanation rough under pressure |
+| 🟢 | Proficient | Easy + medium independent in interview time; explains pattern, complexity, tradeoffs; handles most variations |
+| 🔵 | Advanced | Easy + medium + hard solved; all major variations known; optimal solutions; can teach it |
+| ⭐ | Mastered | Solves any variant cold under interview conditions; explains from first principles; no hints needed |
+
+Update a topic's grade whenever new problems are solved. Be honest — 1 easy problem is 🟠 Familiar, not ⭐ Mastered.
+
 ---
 
 ## End-of-Session Checklist

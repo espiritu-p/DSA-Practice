@@ -1,85 +1,84 @@
 # DSA Progression Sheet
 
-Track which patterns you've studied, practiced, and can solve independently. Work top to bottom — each topic builds on the ones before it.
+Track real mastery — not just whether a problem was attempted, but whether you can
+solve it cold, explain it clearly, and handle variations under interview pressure.
 
-**Status key**
+---
 
-| Symbol | Meaning |
-|--------|---------|
-| ✅ | Solved at least one problem in this topic |
-| 🔁 | Revisiting — got it wrong or needed a hint |
-| ⬜ | Not started |
+## Mastery Scale
+
+| Grade | Label | What it means |
+|-------|-------|---------------|
+| ⬜ | **Not Started** | Haven't begun this topic |
+| 🔴 | **Exposed** | Read about it or attempted; cannot solve independently yet |
+| 🟠 | **Familiar** | Solved 1–2 easy problems; understand the core idea; need hints on medium; miss edge cases |
+| 🟡 | **Developing** | Solving easy independently and medium with occasional hints; know the core template; explanation is rough under pressure |
+| 🟢 | **Proficient** | Solving easy + medium independently in interview time; explain pattern, complexity, and tradeoffs clearly; handle most variations |
+| 🔵 | **Advanced** | Solving easy + medium + hard problems; know all major variations; arrive at optimal solutions; can teach it |
+| ⭐ | **Mastered** | Solve any problem in this topic cold under interview conditions; explain from first principles; no hints needed; discuss tradeoffs fluently |
+
+**Target: ⭐ Mastered across all topics before October 1.**
 
 ---
 
 ## Phase 1 — Foundations
 
-These topics require no prior DSA knowledge. Get comfortable before moving on.
-
-| Topic | Status | Notes |
-|-------|--------|-------|
-| Arrays and Hashing | ✅ | Contains Duplicate, Valid Anagram, Missing Number, Top K Frequent Elements |
-| Math and String | ✅ | Palindrome Number, Roman to Integer, Longest Common Prefix, Valid Palindrome |
-| Bit Manipulation | 🔁 | Needs redo — solved problems but concepts not solid |
-| Two Pointers | ✅ | Valid Palindrome ✅ |
-| Sliding Window | 🔁 | Needs redo — solved problems but concepts not solid |
-| Stack | ✅ | Valid Parentheses ✅ |
-| Binary Search | ✅ | Binary Search ✅ |
+| Topic | Grade | Evidence | Gap |
+|-------|-------|----------|-----|
+| Arrays and Hashing | 🟡 Developing | 4 problems (Contains Duplicate, Valid Anagram, Missing Number, Top K Frequent Elements) — all easy/medium, independent | Group Anagrams, Product of Array Except Self, Encode/Decode, Find Duplicate, Longest Consecutive not yet attempted |
+| Math and String | 🟡 Developing | 4 problems (Palindrome Number, Roman to Integer, Longest Common Prefix, Valid Palindrome) — all easy, independent | Not tested on medium/hard variants |
+| Bit Manipulation | 🟠 Familiar | 5 problems solved but concepts not internalized — XOR tricks and bitmasking patterns need re-learning from scratch | Cannot explain the underlying bit mechanics; needs redo before mediums |
+| Two Pointers | 🟠 Familiar | 1 easy (Valid Palindrome) solved independently and cleanly | Only 1 problem; untested on sorted array variants (Two Sum II, 3Sum, Container With Most Water) |
+| Sliding Window | 🟠 Familiar | 2 problems (Fruits Into Baskets, Maximum Erasure Value) but template not solid; needs redo | Cannot reliably identify window expand/shrink conditions; medium problems unreliable |
+| Stack | 🟠 Familiar | 1 easy (Valid Parentheses) solved independently and cleanly | Only 1 problem; monotonic stack and harder variations (Daily Temperatures, Largest Rectangle) untested |
+| Binary Search | 🟠 Familiar | 1 easy (Binary Search) — textbook correct, all edge cases; clean implementation | Only the base case; rotated array, peak finding, and answer-space binary search untested |
 
 ---
 
 ## Phase 2 — Core Data Structures
 
-Requires Phase 1. Each topic introduces a new structure you need to know cold.
-
-| Topic | Status | Notes |
-|-------|--------|-------|
-| Linked List | ⬜ | |
-| Trees (BFS / DFS) | ⬜ | |
-| Tries | ⬜ | |
-| Heap / Priority Queue | ⬜ | |
+| Topic | Grade | Evidence | Gap |
+|-------|-------|----------|-----|
+| Linked List | ⬜ Not Started | — | — |
+| Trees (BFS / DFS) | ⬜ Not Started | — | — |
+| Tries | ⬜ Not Started | — | — |
+| Heap / Priority Queue | ⬜ Not Started | — | — |
 
 ---
 
 ## Phase 3 — Algorithms
 
-Requires Phase 2. These are patterns applied on top of the structures you know.
-
-| Topic | Status | Notes |
-|-------|--------|-------|
-| Backtracking | ⬜ | |
-| Graphs (BFS / DFS) | ⬜ | |
-| Advanced Graphs (Dijkstra, MST, Topological Sort) | ⬜ | |
+| Topic | Grade | Evidence | Gap |
+|-------|-------|----------|-----|
+| Backtracking | ⬜ Not Started | — | — |
+| Graphs (BFS / DFS) | ⬜ Not Started | — | — |
+| Advanced Graphs (Dijkstra, MST, Topological Sort) | ⬜ Not Started | — | — |
 
 ---
 
 ## Phase 4 — Optimization Paradigms
 
-The hardest conceptual leap. Study the Concepts folder before starting.
-
-| Topic | Status | Notes |
-|-------|--------|-------|
-| Greedy | ✅ | Max Unique Subarray, Max Score Removing Substrings, Rearranging Fruits |
-| Dynamic Programming — 1D | ⬜ | Read: [Concepts/dynamic-programming.md](../Concepts/dynamic-programming.md) |
-| Dynamic Programming — 2D | ⬜ | |
-| Intervals | ⬜ | |
+| Topic | Grade | Evidence | Gap |
+|-------|-------|----------|-----|
+| Greedy | 🟡 Developing | 3 problems (Max Unique Subarray Easy, Max Score Removing Substrings Medium, Rearranging Fruits Hard) — includes 1 hard solved independently | NeetCode LC greedy set not yet attempted; harder interval-greedy variants (Non-overlapping Intervals, Min Arrows) untested |
+| Dynamic Programming — 1D | ⬜ Not Started | — | — |
+| Dynamic Programming — 2D | ⬜ Not Started | — | — |
+| Intervals | ⬜ Not Started | — | — |
 
 ---
 
 ## Phase 5 — Advanced
 
-Return here after Phase 4 is solid.
-
-| Topic | Status | Notes |
-|-------|--------|-------|
-| Advanced (Segment Tree / Sorted Container) | 🔁 | Needs redo — solved problems but concepts not solid |
-| Math and Geometry | ⬜ | |
+| Topic | Grade | Evidence | Gap |
+|-------|-------|----------|-----|
+| Advanced (Segment Tree / Sorted Container) | 🟠 Familiar | 2 problems solved but data structure internals not understood | Cannot implement from scratch; relies on library (`SortedList`); not interview-reliable |
+| Math and Geometry | ⬜ Not Started | — | — |
 
 ---
 
 ## Problem Checklist
 
-Problems from the planned list. Tick them off as you solve them.
+Tick problems off as you solve them independently (no hints, within ~25 min).
 
 ### Arrays and Hashing
 
